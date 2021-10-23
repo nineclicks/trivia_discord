@@ -1,0 +1,21 @@
+{
+    "trivia_core": {
+      "database_path": "trivia.db",
+      "admin_uid": "29.....",
+      "min_matching_characters": 5,
+      "scoreboard_schedule": [
+        {
+          "for": {
+            "days_ago": 1
+          },
+          "time": {
+            "hour": 7,
+            "minute": 0
+          }
+        }
+      ]
+    },
+    "discord_bot_token": "abcabc....",
+    "trivia_channel": "90....",
+    "max_tries": 4
+  }
