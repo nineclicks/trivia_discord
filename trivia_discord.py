@@ -28,7 +28,7 @@ def format_question(question):
     line2 = f'({question["year"]}) **{question["category"]}** '
     line2 += f'for **{question["value"]}**'
     if question['comment']:
-        line2 += ' *question["comment"]*'
+        line2 += f' *{question["comment"]}*'
 
     line3 = f'> {question["question"]}'
 
